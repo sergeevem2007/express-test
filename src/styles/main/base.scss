@@ -1,1 +1,76 @@
 // Базовый файл стилей
+
+.header {
+	position: relative;
+
+	&__logo {
+		max-height: 80px;
+	}
+
+	&__navbar {
+		height: inherit;
+	}
+
+	&__link {
+		color: $secondary-dark;
+	}
+
+	&__call {
+		text-decoration: underline dashed;
+	}
+}
+
+.nav {
+	position: relative;
+
+	&__item {
+		display: flex;
+		align-items: center;
+
+		&::after {
+			display: flex;
+			width: 1px;
+			height: 30px;
+			margin: 0 28px;
+			background-color: $secondary;
+			opacity: 20%;
+			content: '';
+		}
+
+		&:last-child::after {
+			display: none;
+		}
+	}
+
+	&__link {
+		color: $white;
+		text-decoration: none;
+	}
+
+	&__search {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 435px;
+	}
+
+	&__button {
+		position: absolute;
+		top: 50%;
+		left: 16px;
+		background-color: transparent;
+		border: none;
+		outline: none;
+		transform: translateY(-50%);
+	}
+
+	&__input {
+		width: 100%;
+		height: 100%;
+		padding-left: 60px;
+		background-color: #62a53c;
+		border: none;
+		outline: none;
+	}
+}
