@@ -74,3 +74,11 @@
 		outline: none;
 	}
 }
+
+.hero {
+	position: relative;
+
+	&__description {
+		color: $secondary-dark;
+	}
+}
