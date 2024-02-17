@@ -131,3 +131,17 @@
 		color: $secondary-dark;
 	}
 }
+
+.subscribe {
+	box-shadow: 0 2px 14px 0 #0000001a;
+
+	&__social {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 60px;
+		aspect-ratio: 1;
+		background-color: $light;
+		border-radius: 100%;
+	}
+}
