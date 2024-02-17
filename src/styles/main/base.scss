@@ -145,3 +145,42 @@
 		border-radius: 100%;
 	}
 }
+
+.footer {
+	@include media-breakpoint-up(md) {
+		&__vr {
+			position: relative;
+
+			&::after {
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				display: block;
+				width: 1px;
+				height: 100%;
+				background-color: #dfdfdf;
+				content: '';
+			}
+		}
+	}
+
+	position: relative;
+
+	&__link {
+		color: $secondary-dark;
+		text-decoration: none;
+	}
+
+	&__text {
+		color: $secondary-dark;
+	}
+}
+
+.politic {
+	box-shadow: 0 4px 8px 0 #0000001a;
+
+	&__text {
+		color: $secondary-dark;
+	}
+}
