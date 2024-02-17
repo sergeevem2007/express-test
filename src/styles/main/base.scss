@@ -108,3 +108,26 @@
 	background: linear-gradient(90deg, #6cb644 0%, #82ca2c 100%);
 	box-shadow: 0 10px 20px 0 #84c7374d;
 }
+
+.how-works {
+	position: relative;
+
+	&__card {
+		border-radius: 8px;
+		box-shadow: 0 4px 8px 0 #0000001a;
+	}
+
+	&__img {
+		border-radius: 8px 8px 0 0;
+	}
+
+	&__body {
+		height: 100%;
+		min-height: 150px;
+		border-radius: 0 0 8px 8px;
+	}
+
+	&__description {
+		color: $secondary-dark;
+	}
+}

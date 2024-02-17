@@ -7,5 +7,10 @@ export default {
 		{ img: "/src/assets/img/points/4.png", text:"Текст Текст Текст Текст </br>Текст Текст </br>Текст Текст"},
 		{ img: "/src/assets/img/points/5.png", text:"<span class=\"text-primary\">Текст Текст Текст</span>, </br>Текст Текст Текст Текст Текст Текст"},
 		{ img: "/src/assets/img/points/6.png", text:"Текст </br>Текст  Текст  Текст </br>Текст Текст"}
+	],
+	howWorks: [
+		{ img:"/src/assets/img/how-works/1.jpg", question:"Вопрос вопрос вопрос?", answer:"Текст Текст Текст Текст Текст Текст "},
+		{ img:"/src/assets/img/how-works/2.jpg", question:"Вопрос вопрос вопрос?", answer:"Текст Текст Текст Текст Текст Текст "},
+		{ img:"/src/assets/img/how-works/3.jpg", question:"Вопрос вопрос вопрос?", answer:"Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст*"},
 	]
 };
