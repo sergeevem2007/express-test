@@ -82,3 +82,29 @@
 		color: $secondary-dark;
 	}
 }
+
+.points {
+	position: relative;
+
+	&__card {
+		min-height: 190px;
+		padding: 65px 20px 8px;
+		border-radius: 15px;
+	}
+
+	&__img {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	&__text {
+		line-height: 1.6;
+	}
+}
+
+.btn-cta {
+	background: linear-gradient(90deg, #6cb644 0%, #82ca2c 100%);
+	box-shadow: 0 10px 20px 0 #84c7374d;
+}

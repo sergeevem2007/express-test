@@ -1,0 +1,49 @@
+<section class="points bg-white py-6">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="fw-700 fs-28 text-center">Заголовок заголовок заголовок </h2>
+			</div>
+		</div>
+		<div class="row mt-3 gy-6">
+			{% for point in site.points %}
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="points__card position-relative bg-light">
+						<img src="{{ point.img }}" alt="" class="points__img">
+						<div class="points__text fw-700 fs-18 text-center text-uppercase">{{ point.text }}</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+		<div class="row mt-45">
+			<div class="col-12">
+				<div class="d-flex justify-content-center">
+					<a href="#" class="btn-cta fw-600 fs-14 lh-sm rounded-pill d-inline-flex align-items-center text-white text-decoration-none text-uppercase py-3 ps-45 pe-3">
+						Записаться на проверку
+						<svg class="ms-3" width="50" height="50">
+							<use xlink:href="#ico-arrow-right"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-6">
+			<div class="col-md-8">
+				<div class="fw-700 fs-28 mb-4">Текст текст:</div>
+				<ul>
+					<li class="fs-18 mb-1">текст текст</li>
+					<li class="fs-18 mb-1">текст текст текст текст</li>
+					<li class="fs-18 mb-1">текст</li>
+					<li class="fs-18 mb-1">текст текст текст текст текст текст текст текст текст текст текст текст </li>
+					<li class="fs-18 mb-1">текст текст текст текст текст текст текст текст текст текст </li>
+					<li class="fs-18 mb-1">текст текст текст текст текст текст текст текст текст текст текст текст текст текст </li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<div class="d-flex justify-content-center">
+					<img src="/src/assets/img/points-radius-img.png" alt="" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
