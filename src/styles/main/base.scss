@@ -207,3 +207,10 @@
 		color: $secondary-dark;
 	}
 }
+
+.hover-dark {
+	&:hover {
+		color: $white !important;
+		background: linear-gradient(90deg, $dark 0%, $secondary-dark 100%);
+	}
+}
