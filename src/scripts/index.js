@@ -27,4 +27,12 @@ const swiper = new Swiper('.swiper', {
 		},
 	},
 });
-swiper.autoplay;
+
+const subscribe = document.getElementById('subscribe');
+const subscribeSubmit = document.getElementById('subscrube-submit');
+
+subscribe.addEventListener('submit', (event) => {
+	event.preventDefault();
+	subscribeSubmit.textContent = 'Спасибо';
+	subscribeSubmit.classList.add('btn-dark');
+});

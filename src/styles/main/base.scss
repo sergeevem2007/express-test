@@ -125,11 +125,18 @@
 	}
 }
 
-.btn-cta {
-	background: linear-gradient(90deg, #6cb644 0%, #82ca2c 100%);
-	border: none;
-	outline: none;
-	box-shadow: 0 10px 20px 0 #84c7374d;
+.btn {
+	&-cta {
+		background: linear-gradient(90deg, #6cb644 0%, #82ca2c 100%);
+		border: none;
+		outline: none;
+		box-shadow: 0 10px 20px 0 #84c7374d;
+	}
+
+	&-dark {
+		color: $white;
+		background: linear-gradient(90deg, $dark 0%, $secondary-dark 100%);
+	}
 }
 
 .how-works {
