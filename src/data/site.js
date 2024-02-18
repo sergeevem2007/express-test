@@ -12,5 +12,7 @@ export default {
 		{ img:"/src/assets/img/how-works/1.jpg", question:"Вопрос вопрос вопрос?", answer:"Текст Текст Текст Текст Текст Текст "},
 		{ img:"/src/assets/img/how-works/2.jpg", question:"Вопрос вопрос вопрос?", answer:"Текст Текст Текст Текст Текст Текст "},
 		{ img:"/src/assets/img/how-works/3.jpg", question:"Вопрос вопрос вопрос?", answer:"Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст*"},
+		{ img:"/src/assets/img/how-works/1.jpg", question:"Вопрос вопрос вопрос?", answer:"Текст Текст Текст Текст Текст Текст "},
+		{ img:"/src/assets/img/how-works/2.jpg", question:"Вопрос вопрос вопрос?", answer:"Текст Текст Текст Текст Текст Текст "},
 	]
 };
